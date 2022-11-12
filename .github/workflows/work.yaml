@@ -42,3 +42,6 @@ jobs:
             - name: Request API
               run: |
                 bash ssp-autocheckin.sh
+
+            - name: Keepalive  
+            - uses: gautamkrishnar/keepalive-workflow@v1 # using the workflow with default settings            
